@@ -36,7 +36,7 @@ for customer in idn_list:
                 
                 elif slides.index(slide) in [8, 9]:
                     shape.text = f'Expiration, {customer} enterprise'
-                    
+
                 elif slides.index(slide) in [10, 11]:
                     shape.text = f'Wasted supplies, {customer} enterprise'
                 
@@ -56,8 +56,3 @@ for customer in idn_list:
 
 t2 = perf_counter()
 print('Took {} Seconds'.format(t2-t1))
-
-
-
-
-    
